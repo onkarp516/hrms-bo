@@ -1,0 +1,60 @@
+.ledgerStyle {
+  height: 90vh;
+  overflow: hidden auto;
+  .form-control {
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border-bottom: 1px solid #c3deee;
+    height: 38px;
+    background: #fff;
+    box-shadow: none !important;
+    border-block-start: none;
+    border-left: none;
+    border-right: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .form-control:hover {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 2px solid #006b97;
+    border-radius: 5px;
+    height: 38px;
+    background: #fff;
+    cursor: pointer;
+  }
+  .form-control:hover + .common-input-label,
+  .textOnInput:hover .common-input-label {
+    font-size: 12px;
+    transition: font-size 0.3s ease;
+  }
+
+  .cardStyle {
+    .card-body {
+      padding-left: 0;
+      .lineStyle {
+        border-left: 2px solid #4d798b;
+        margin-bottom: 0;
+        height: 30px;
+      }
+      .cardTitle {
+        padding-left: 15px;
+      }
+      .card_table_style {
+        height: 8vh;
+        overflow: hidden auto;
+        margin-top: 10px;
+        text-align: center;
+        padding-left: 15px;
+        table {
+          thead th {
+            background: #d7f4ff;
+          }
+        }
+      }
+    }
+  }
+}

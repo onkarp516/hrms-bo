@@ -1,0 +1,264 @@
+//payment style
+.paymentStyle {
+  margin-top: 30px;
+  .paymentTblStyle {
+    margin-top: 30px;
+    table {
+      height: 50vh;
+      thead th {
+        background: linear-gradient(180deg, #0e3e78 0%, #061931 100%);
+        color: #f3f3f3;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      tfoot th {
+        background: linear-gradient(180deg, #0e3e78 0%, #061931 100%);
+        color: #f3f3f3;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      tbody td {
+        padding: 0;
+      }
+    }
+    .common-input-label {
+      display: none;
+    }
+  }
+  .cancelBtn {
+    border-radius: 6px;
+    border: 1px solid #dfdfdf;
+    background: #f5f5f5;
+    color: #f00;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 25px;
+
+    &:hover {
+      background: #000;
+    }
+  }
+  .submitBtn {
+    border-radius: 6px;
+    background: #0e56af;
+    color: #fff;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 25px;
+
+    &:hover {
+      background: #000;
+    }
+  }
+}
+
+// receipt style
+
+.reciptStyle {
+  margin-top: 30px;
+  .receiptTblStyle {
+    margin-top: 30px;
+    table {
+      height: 50vh;
+      thead th {
+        background: linear-gradient(180deg, #0e3e78 0%, #061931 100%);
+        color: #f3f3f3;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      tfoot th {
+        background: linear-gradient(180deg, #0e3e78 0%, #061931 100%);
+        color: #f3f3f3;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      tbody td {
+        padding: 0;
+      }
+    }
+    .common-input-label {
+      display: none;
+    }
+  }
+  .cancelBtn {
+    border-radius: 6px;
+    border: 1px solid #dfdfdf;
+    background: #f5f5f5;
+    color: #f00;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 25px;
+
+    &:hover {
+      background: #000;
+    }
+  }
+  .submitBtn {
+    border-radius: 6px;
+    background: #0e56af;
+    color: #fff;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 25px;
+
+    &:hover {
+      background: #000;
+    }
+  }
+}
+
+//contra style
+.contraStyle {
+  margin-top: 30px;
+  .contraTblStyle {
+    margin-top: 30px;
+    table {
+      height: 50vh;
+      thead th {
+        background: linear-gradient(180deg, #0e3e78 0%, #061931 100%);
+        color: #f3f3f3;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      tfoot th {
+        background: linear-gradient(180deg, #0e3e78 0%, #061931 100%);
+        color: #f3f3f3;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      tbody td {
+        padding: 0;
+      }
+    }
+    .common-input-label {
+      display: none;
+    }
+  }
+  .cancelBtn {
+    border-radius: 6px;
+    border: 1px solid #dfdfdf;
+    background: #f5f5f5;
+    color: #f00;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 25px;
+
+    &:hover {
+      background: #000;
+    }
+  }
+  .submitBtn {
+    border-radius: 6px;
+    background: #0e56af;
+    color: #fff;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 25px;
+
+    &:hover {
+      background: #000;
+    }
+  }
+}
+
+//journal style
+.journalStyle {
+  margin-top: 30px;
+  .journalTblStyle {
+    margin-top: 30px;
+    table {
+      height: 50vh;
+      thead th {
+        background: linear-gradient(180deg, #0e3e78 0%, #061931 100%);
+        color: #f3f3f3;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      tfoot th {
+        background: linear-gradient(180deg, #0e3e78 0%, #061931 100%);
+        color: #f3f3f3;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      tbody td {
+        padding: 0;
+      }
+    }
+    .common-input-label {
+      display: none;
+    }
+  }
+  .cancelBtn {
+    border-radius: 6px;
+    border: 1px solid #dfdfdf;
+    background: #f5f5f5;
+    color: #f00;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 25px;
+
+    &:hover {
+      background: #000;
+    }
+  }
+  .submitBtn {
+    border-radius: 6px;
+    background: #0e56af;
+    color: #fff;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 25px;
+
+    &:hover {
+      background: #000;
+    }
+  }
+}

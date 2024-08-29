@@ -1,0 +1,926 @@
+.tblalignment {
+  padding: 1px !important;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.attendance-tbl {
+  height: 78.5vh;
+  overflow: auto;
+}
+
+.salary-process-block {
+
+  position: fixed;
+  max-height: 70%;
+  overflow-y: auto;
+  /* justify-content: center; */
+  text-align: center;
+  /* left: 2%; */
+  overflow-x: hidden;
+  width: -webkit-fill-available;
+  /* overscroll-behavior-y: none; */
+  // overflow-y: inherit;
+}
+
+.tbl-style {
+  // height: 75vh;
+  // overflow: scroll;
+  // overflow-x:hidden;
+  text-align: center;
+  // padding: 10px;
+
+  //top: -2px;
+
+  // tbody {
+  //   color: black;
+  // }
+
+  // thead tr th {
+  //   position: sticky;
+  //   top: -1px;
+  //   background: #f5f5f5;
+  //   border-top: 1px solid black;
+  //   border-bottom: 1px solid black;
+  //   outline: auto;
+  // }
+
+  // tfoot tr th {
+  //     position: sticky;
+  //     bottom: -1px;
+  //     background: white;
+  // }
+  .tfoot1 {
+    th {
+      // position: sticky;
+      bottom: 129px;
+      background: #dde0e8;
+      border-top: 1px solid;
+      border-bottom: 1px solid #b8bec4;
+    }
+  }
+
+  .tfoot2 {
+    th {
+      // position: sticky;
+      bottom: 100px;
+      background: #dde0e8;
+      border-bottom: 1px solid #b8bec4;
+    }
+  }
+
+  .tfoot3 {
+    th {
+      //position: sticky;
+      bottom: 70px;
+      background: #dde0e8;
+      border-bottom: 1px solid #b8bec4;
+    }
+  }
+
+  .tfoot4 {
+    th {
+      //position: sticky;
+      bottom: 20px;
+      background: #dde0e8;
+      border-bottom: 1px solid #b8bec4;
+    }
+  }
+
+  .tfoot5 {
+    th {
+      //position: sticky;
+      bottom: 0px;
+      background: #dde0e8;
+      border-bottom: 1px solid #b8bec4;
+    }
+  }
+
+  .td-style {
+    background: #df5e5e;
+  }
+
+  .td-style1 {
+    background: rgb(161, 200, 128);
+  }
+
+  .td-style2 {
+    background: #efd97d;
+  }
+
+  .td-style3 {
+    background-color: #fff;
+  }
+
+  .td-style4 {
+    background-color: rgb(87, 164, 247);
+  }
+
+  // tr:hover {
+  //   border: 2px solid;
+  // }
+}
+
+.icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+// .nav-bar {
+//     position: absolute;
+//     top: 2%;
+//     left: 110%;
+//     z-index: 1000; /* Set a higher z-index value */
+//     background: #ffffff;
+//     border: 1px solid #100303;
+//     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+//     display: flex;
+//     flex-direction: column;
+//     width: 150px; /* Adjust the width as needed */
+//     color: #0f0505;
+//     padding: 5px;
+// }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.master-menu {
+  background-color: #0e3e78;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  height: 34px;
+  color: white;
+  text-align: center;
+}
+
+.div-card {
+  border-radius: 2px;
+  border: none;
+}
+
+.master-menu span {
+  font-size: 16px;
+  margin-top: 2%;
+  font-weight: bold;
+}
+
+.div-card:hover {
+  // box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-feature-settings: "liga" 0;
+  font-variant-ligatures: no-contextual;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  background: transparent;
+  border: 0;
+  font-size: 160px;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+// style={{borderRadius:"2px",border:"none"}}
+// .master-menu:hover {
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+// }
+
+li {
+  padding: 2px;
+  text-align: center;
+  //   height: 28px;
+}
+
+.card-li {
+  height: 34px;
+}
+
+/* Additional styling for the links */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Hover effect for the links */
+// a:hover {
+//     background: #0f0505;
+// }
+
+.content-wrapper {
+  flex-grow: 1;
+  overflow: auto;
+  padding: 8px;
+  background: white;
+  min-height: 90vh;
+  border: none;
+  /* Remove the border */
+  // border-radius: 14px;
+  margin-left: 52px;
+  margin-top: 68px;
+  margin-right: 6px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  /* Add a shadow effect */
+}
+
+.scrollable-div {
+  max-height: 100%;
+  /* Set your desired max height */
+  // overflow-y: auto; /* This property makes the div scrollable if content overflows */
+  // border: 1px solid #ccc;
+  // padding: 10px;
+  // border-top-left-radius: 12px;
+  // border-top-right-radius: 12px;
+  // background-color: #0e3e78;
+  color: #006b97;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  position: fixed;
+  overflow: hidden;
+  /* Hide both horizontal and vertical scrollbars */
+  overflow-x: hidden;
+}
+
+.scrollable-div-page {
+  position: fixed;
+  max-height: 100%;
+  /* Set your desired max height */
+  overflow-y: auto;
+  /* This property makes the div scrollable if content overflows */
+  // border: 1px solid #ccc;
+  // padding: 10px;
+  // border-top-left-radius: 12px;
+  // border-top-right-radius: 12px;
+  // background-color: #0e3e78;
+  width: 94.8%;
+  border: none;
+  padding: 8px;
+  // padding-top: 0px;
+  overflow-x: hidden;
+}
+
+.custom-tabs-container {
+  width: 100%; /* Adjust width as needed */
+}
+
+.scrollable-div-page-tabs {
+  // position: fixed;
+  max-height: 100%;
+  /* Set your desired max height */
+  overflow-y: auto;
+  /* This property makes the div scrollable if content overflows */
+  // border: 1px solid #ccc;
+  // padding: 10px;
+  // border-top-left-radius: 12px;
+  // border-top-right-radius: 12px;
+  // background-color: #0e3e78;
+  width: 99.8%;
+  border: none;
+  padding: 8px;
+  // padding-top: 0px;
+  overflow-x: hidden;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  /* Set a high z-index to ensure it's above other content */
+  background-color: #fff;
+  /* You can adjust the background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Optional box shadow for a nice effect */
+}
+
+.pagePathLayout {
+  // margin-left: 8px;
+  width: 99%;
+  height: 52px;
+  align-items: center;
+  border-radius: 10px;
+  background: #d7f4ff;
+  align-items: center;
+  margin: 10px;
+}
+
+// .pagePathLayout {
+//   display: flex;
+//   justify-content: flex-end; /* Align items at the end of the container */
+//   align-items: center; /* Align items vertically in the center */
+//   /* Other styles for the container if needed */
+// }
+
+.btn-add {
+  width: 32px;
+  height: 32px;
+  // margin-left: 50%;
+  position: relative;
+  left: 66%;
+  cursor: pointer;
+
+  // flex-shrink: 0;
+}
+
+.path-label {
+  color: #003d56;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 5px;
+}
+
+.header-name1 {
+  color: #003d56;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 5px;
+}
+
+.header-name2 {
+  color: #006b97;
+}
+
+.path-label2 {
+  color: #a9a9a9;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 5px;
+}
+
+.card-custom {
+  width: 700px;
+  height: 350px;
+  /* Add other card styling as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  /* Add more styles as desired */
+}
+
+.custom-modal .modal-dialog {
+  max-width: 800px;
+  /* Adjust the width as needed */
+  max-height: 350px;
+}
+
+.modal-dialog-xl {
+  max-width: 1000px;
+  /* Adjust the width as needed */
+  max-height: 350px;
+}
+
+.modal-height-width {
+  width: 700px;
+  height: 350px;
+  border: none;
+}
+
+.pagePathLayout-modal {
+  // margin-left: 25px;
+  // margin-left: -25px;
+  width: 104%;
+  height: 52px;
+  align-items: center;
+  border-radius: 10px;
+  background: #d7f4ff;
+  align-items: center;
+}
+
+.pagePathLayout-modal-shift {
+  // margin-left: 25px;
+  margin-left: 25px;
+  width: 107%;
+  height: 52px;
+  align-items: center;
+  border-radius: 10px;
+  background: #d7f4ff;
+  align-items: center;
+}
+
+.modal-submit-btn {
+  margin-top: 104px;
+  border-radius: 6px;
+  background-color: #0e56af;
+  width: 100%;
+}
+
+.modal-submit-btn:hover {
+  margin-top: 104px;
+  border-radius: 6px;
+  background-color: #000000;
+  width: 100%;
+}
+
+.modal-submit-btn-advance-payment {
+  margin-top: 104px;
+  border-radius: 6px;
+  background-color: #0e56af;
+  width: 100%;
+  margin-top: 40px;
+  margin-left: 32px;
+}
+
+.modal-submit-btn-advance-payment:hover {
+  margin-top: 104px;
+  border-radius: 6px;
+  background-color: #000000;
+  width: 100%;
+  margin-top: 40px;
+  margin-left: 32px;
+}
+
+.modal-btn {
+  border-radius: 6px;
+  background-color: #0e56af;
+  width: 100%;
+}
+
+.modal-btn:hover {
+  border-radius: 6px;
+  background-color: #000000;
+  width: 100%;
+}
+
+.modal-btn-shift {
+  border-radius: 6px;
+  background-color: #0e56af;
+  width: 100%;
+  position: relative;
+  top: 44px;
+  right: -74px;
+}
+
+.modal-btn-shift:hover {
+  border-radius: 6px;
+  background-color: #000000;
+  width: 100%;
+  position: relative;
+  top: 44px;
+  right: -74px;
+}
+
+.submit-btn {
+  border-radius: 6px;
+  background-color: #0e56af;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  border-radius: 6px;
+  background-color: #000000;
+  width: 100%;
+}
+
+.cancel-btn {
+  border-radius: 6px;
+  border: 1px solid #dfdfdf;
+  background: #f5f5f5;
+  width: 100%;
+  color: #000;
+}
+
+.cancel-btn:hover {
+  border-radius: 6px;
+  background-color: #000000;
+  width: 100%;
+}
+
+.header-title {
+  flex: 0 0 auto;
+  width: 96.999999%;
+}
+
+.header-add-btn {
+  flex: 0 0 auto;
+  width: 1%;
+}
+
+.header-add-btn-team-allocation-mdl1 {
+  flex: 0 0 auto;
+  width: 1%;
+  margin-right: 100px;
+  margin-left: -90px;
+}
+
+.header-add-btn-team-allocation-mdl2 {
+  flex: 0 0 auto;
+  width: 1%;
+  margin-left: -80px;
+  margin-right: 12px;
+}
+
+.header-add-btn-team-allocation-mdl3 {
+  flex: 0 0 auto;
+  width: 1%;
+  margin-left: 7px;
+}
+
+.tooltip-add-btn {
+  margin-right: -15px;
+  /* Adjust the margin as needed to control the distance */
+  border: none;
+  width: 80px;
+  font-size: 16px;
+  border-right: 5px solid #000;
+  background-color: #000;
+  /* Background color */
+  border-radius: 5px;
+}
+
+.tooltip-add-btn-team-allocation1 {
+  margin-right: -15px;
+  /* Adjust the margin as needed to control the distance */
+  border: none;
+  width: 205px;
+  font-size: 16px;
+  border-right: 5px solid #000;
+  background-color: #000;
+  /* Background color */
+  border-radius: 5px;
+}
+
+.tooltip-add-btn-team-allocation2 {
+  margin-right: -15px;
+  /* Adjust the margin as needed to control the distance */
+  border: none;
+  width: 95px;
+  font-size: 16px;
+  border-right: 5px solid #000;
+  background-color: #000;
+  /* Background color */
+  border-radius: 5px;
+}
+
+.tooltip-add-btn-team-allocation3 {
+  margin-right: -15px;
+  /* Adjust the margin as needed to control the distance */
+  border: none;
+  width: 170px;
+  font-size: 16px;
+  border-right: 5px solid #000;
+  background-color: #000;
+  /* Background color */
+  border-radius: 5px;
+}
+
+.list-table {
+  // height: 720px;
+  height: 686px;
+}
+
+.list-thead {
+  height: 10px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  overflow: hidden;
+}
+
+.title-label {
+  flex: 0 0 auto;
+  width: 6%;
+}
+
+.title-hr-bar {
+  flex: 0 0 auto;
+  width: 90;
+}
+
+.img-delete {
+  height: 18px;
+  padding-right: 20px;
+}
+
+.img-edit {
+  height: 18px;
+}
+
+.modal-fields-row1 {
+  height: 109px;
+  padding-top: 35px;
+  // margin-left: 35px;
+  // margin-right: -60px;
+}
+.modal-fields-row1-branch {
+  height: 70px;
+  padding-top: 35px;
+}
+
+.modal-fields-row1-payhead {
+  height: 70px;
+  padding-top: 35px;
+  // margin-left: 35px;
+  // margin-right: -60px;
+}
+
+.modal-fields-row2 {
+  height: 40px;
+  // margin-left: 35px;
+  // margin-right: -60px;
+}
+
+.modal-fields-row3 {
+  height: 40px;
+  // margin-left: 35px;
+  // margin-right: -60px;
+}
+
+.modal-fields-row4 {
+  height: 40px;
+  // margin-left: 35px;
+  // margin-right: -60px;
+}
+
+//
+.modal-fields-row1-shift {
+  height: 109px;
+  padding-top: 35px;
+  margin-left: 35px;
+  margin-right: -60px;
+}
+
+.modal-fields-row2-shift {
+  height: 40px;
+  margin-left: 35px;
+  margin-right: -60px;
+}
+
+.modal-fields-row3-shift {
+  height: 40px;
+  margin-left: 35px;
+  margin-right: -60px;
+}
+
+.modal-fields-row4-shift {
+  height: 40px;
+  margin-left: 35px;
+  margin-right: -60px;
+}
+
+.modal-header {
+  height: 50px;
+  margin-top: 9px;
+}
+
+.modal-header-backbtn {
+  height: 30px;
+}
+
+.modal-header-span {
+  padding-left: 50px;
+}
+
+//input field label font size to set at orginal size when removing hover.
+.common-input-label {
+  font-size: 14px;
+  /* Set your normal font size */
+}
+
+//modal back button tooltip adjustment and square box css
+.tooltip-back-btn {
+  margin-left: -5px;
+  /* Adjust the margin as needed to control the distance */
+  border: none;
+  width: 80px;
+  font-size: 16px;
+  border-left: 5px solid #000;
+  background-color: #000;
+  /* Background color */
+  border-radius: 5px;
+}
+
+.strHr {
+  position: relative;
+  right: 9%;
+  top: -1px;
+  width: 1666px;
+  height: 1px;
+  background: rgba(235, 235, 235, 0.4);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+  color: #ebebeb66;
+  // text-shadow: 2px 2px blue;
+}
+
+.emptab {
+  border: none;
+}
+
+.customeTab {
+  border: none;
+  width: 100%;
+}
+
+.mainbtn1 {
+  position: relative;
+  top: 664px;
+  left: 1600px;
+  margin-left: 10px;
+
+  @media (min-width: 1601px) and (max-width: 1680px) {
+    top: 664px;
+    left: 1330px;
+  }
+}
+
+.nextBtn {
+  margin-top: 180px;
+  border-radius: 6px;
+  background: #0e56af;
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px 40px 10px 40px;
+  border: 0;
+
+  &:hover {
+    background: #000;
+  }
+}
+
+.backBtn {
+  margin-top: 180px;
+  border-radius: 6px;
+  border: 1px solid #dfdfdf;
+  background: #f5f5f5;
+  color: #f00;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  padding: 10px 40px 10px 40px;
+  font-weight: 500;
+  line-height: normal;
+
+  &:hover {
+    background: #000;
+  }
+}
+
+.shift-modal-header {
+  height: 40px;
+  margin-top: 10px;
+}
+
+.list-heading {
+  margin-left: 5px;
+}
+
+.list-head-fields {
+  margin-top: 30px;
+}
+
+.list-heading {
+  margin-left: 5px;
+}
+
+.list-head-fields {
+  margin-top: 30px;
+}
+
+.empcreate-pg {
+
+  .nav-tabs .nav-link.active,
+  .nav-tabs .nav-item.show .nav-link {
+    border-bottom: 5px solid #a8d1ff;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: #4d798b;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .nav-tabs .nav-link {
+    color: #4d798b;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    // margin-left: 35px;
+    // margin-right: 35px;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1699.98px) {
+  .scrollable-div-page {
+    position: fixed;
+    max-height: 70%;
+    /* Set your desired max height */
+    overflow-y: auto;
+    /* This property makes the div scrollable if content overflows */
+    // border: 1px solid #ccc;
+    // padding: 10px;
+    // border-top-left-radius: 12px;
+    // border-top-right-radius: 12px;
+    // background-color: #0e3e78;
+    width: 94.8%;
+    border: none;
+    padding: 8px;
+    // padding-top: 0px;
+    overflow-x: hidden;
+  }
+}
+
+.alphabate nav {
+  height: 25px !important;
+  border-bottom: none;
+}
+
+.alphabate a {
+  background: #eee;
+  margin-right: 4px;
+  padding: 8px !important;
+  border-radius: 7px;
+  color: #000;
+  font-size: 13px;
+  height: 26px !important;
+  border-radius: 6px !important;
+  line-height: 10px;
+}
+
+.alphabate nav a:hover {
+  background: #007bb6 !important;
+  color: #fff !important;
+}
+
+.alphabate .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  background: #007bb6 !important;
+  color: #fff !important;
+}
+
+//Hide the ScrollBar but it works Properly Start
+.hide-scrollbar {
+  position: fixed;
+  width: 93.8%;
+  padding: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 780px;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+// .hide-scrollbar {
+//   scrollbar-width: thin;
+// }
+
+//Hide the ScrollBar but it works Properly End
+
+.tabs-page-table{
+margin-left: 20px;
+width: 98%;
+}
+.tabs-page-table2{
+margin-left: 14px;
+width: 98%;
+}
+
+.tbl-list-absentemployee{
+height: 625px;
+}

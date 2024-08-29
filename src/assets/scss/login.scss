@@ -1,0 +1,105 @@
+.login_style {
+  height: 100vh;
+  overflow: hidden auto;
+  .bg_style {
+    background-image: url("../images/Login_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .cTol {
+    color: #0070ee;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .logo_style {
+    height: 100px;
+  }
+  .blueBtnStyle {
+    border-radius: 6px;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 112, 238, 0.3) 0%,
+        rgba(0, 112, 238, 0.3) 100%
+      ),
+      linear-gradient(90deg, #0070ee 0%, #04b8fb 100%);
+    color: #fff;
+    border: linear-gradient(
+        0deg,
+        rgba(0, 112, 238, 0.3) 0%,
+        rgba(0, 112, 238, 0.3) 100%
+      ),
+      linear-gradient(90deg, #0070ee 0%, #04b8fb 100%);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: inherit;
+    padding: 15px;
+  }
+  .lightBlueBtnStyle,
+  .lightBlueBtnStyle:focus {
+    border-radius: 6px;
+    border: 1px solid #0070ee;
+    background: rgba(0, 112, 238, 0.1);
+    color: #0070ee;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: inherit;
+    padding: 15px;
+  }
+  .btmText {
+    color: #1d275f;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: 120px;
+  }
+  .underLineText {
+    text-decoration: underline;
+  }
+  .fields-size {
+    color: #666;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    justify-content: left;
+  }
+
+  .employeeplaceholder {
+    color: #c5c5c5;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    // line-height: 18px;
+    /* 120% */
+  }
+  .username-field {
+    height: 80px;
+    // margin-left: -50px;
+    // margin-right: -50px;
+  }
+  .password-field {
+    height: 60px;
+    // margin-left: -50px;
+    // margin-right: -50px;
+  }
+}

@@ -1,0 +1,576 @@
+.inputCheckLabel #label {
+  flex: 0 0 auto;
+  width: 8.333333%;
+}
+
+.inputCheckLabel #check {
+  flex: 0 0 auto;
+  width: 1.333333%;
+}
+
+.inputCheckLabel #label2 {
+  flex: 0 0 auto;
+  width: 1.333333%;
+
+  color: #a1a1a1;
+  font-family: Inter;
+  //   font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 5px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.textOnInput {
+  position: relative;
+}
+.textOnInput-dashboard1 {
+  position: relative;
+  font-size: 22px;
+  margin-left: -100px;
+}
+.textOnInput-dashboard2 {
+  position: relative;
+  font-size: 22px;
+  margin-left: -200px;
+}
+.textOnInput-dashboard-field2 {
+  position: relative;
+  font-size: 22px;
+margin-left: -280px;
+width: 50%;
+}
+.textOnInput-dashboard-field1 {
+  position: relative;
+  font-size: 22px;
+  margin-left: -180px;
+  width: 120px;
+}
+.dashboard-card-col{
+  width: 200px;
+    }
+.dashboard-card{
+width: 190px;
+    margin-top: 20px;
+    margin-left: 51px;
+    height: 190px;
+    border-color: #F0F7FF;
+  }
+  .dashboard-card1{
+    width: 513px;
+        margin-top: 20px;
+        margin-left: 51px;
+        height: 190px;
+        border-color: #F0F7FF;
+      }
+  .dashboard-img{
+    margin: 2px;
+  }
+  .card-body{
+    background: #F0F7FF
+  }
+  .card-body1{
+    background: white;
+    height: 90px;
+    margin-left: -50px;
+  }
+  .dashboard-card-txt{
+    color: #003D56;
+    font-weight: bold;
+  }
+  .dashboard-card-txt-card{
+    color: #2989F4;
+    font-weight: 600;
+  }
+  .dashboard-card-txt-p{
+    color: #003D56;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .dashboard-card-txt1{
+    color: #003D56;
+    margin-top: -17px;
+    font-weight: bold;
+  }
+  .card-img{   
+     margin-top: 20px;
+  height: 50px;
+}
+.card-span{
+  margin-left: 45px;
+    font-size: 26px;
+    color: #2989F4;
+}
+.textOnInput label {
+  position: absolute;
+  top: -15px;
+  left: 23px;
+  padding: 2px;
+  z-index: 1;
+
+  color: #4d798b;
+  // font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* Set the default font size */
+}
+
+.textOnInput label:after {
+  content: " ";
+  background-color: #fff;
+  // width: 50%;
+  height: 13px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+//input field label font size to set at small size when hovering.
+.form-control:hover + .common-input-label,
+.textOnInput:hover .common-input-label {
+  font-size: 12px;
+  /* Set your smaller font size for hover state */
+  transition: font-size 0.3s ease;
+
+  /* Add a transition for smooth size change */
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  background: white;
+  // padding-left: 5px;
+}
+
+.form-control {
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  border-bottom: 1px solid #c3deee;
+  // width: 432px;
+  height: 38px;
+  background: #fff;
+  box-shadow: none !important;
+  border-block-start: none;
+  border-left: none;
+  border-right: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:hover {
+  display: block;
+  // padding: 0.375rem 0.75rem;
+  // padding: 1.2rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 2px solid #006b97;
+  border-radius: 5px;
+  // width: 432px;
+  height: 38px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.customUploadFileStyle {
+  .form-control {
+    // background: #f5f5f5;
+    display: block;
+    padding: 6px;
+    border-radius: 8px;
+    // width: 90%;
+    // line-height: 25px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+  }
+  .form-control::before {
+    position: absolute;
+    content: "Browse";
+    right: -2px;
+    top: -2px;
+    // width: 100px;
+    // height: 100%;
+    // line-height: 50px;
+    border-radius: 6px;
+    background: #0e56af;
+    // background: #cccccc;
+    text-align: center;
+    // border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    color: #fff;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.form-control:hover + .textOnInput label {
+  font-size: 20px;
+  /* Change the font size to your desired value on hover */
+}
+
+.subText {
+  color: #006b97;
+  // font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cntnr {
+  position: fixed;
+  width: 93.8%;
+  padding: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.add_btn {
+  border-radius: 6px;
+  background: #0e56af;
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 0;
+  &:hover {
+    background: #000000;
+  }
+}
+.add_btn-doc {
+  margin-left: 25px;
+  border-radius: 6px;
+  background: #0e56af;
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 0;
+  &:hover {
+    background: #000000;
+  }
+}
+
+.user_nestedTable-th th {
+  background-color: #eaf9ff;
+  color: #929292;
+  // font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  // border: 1px solid black;
+}
+.user_nestedTable-th2 th {
+  // border-top: 1px solid #cacaca;
+  // border-bottom: 1px solid #cacaca;
+  // border-left: 1px solid #cacaca;
+  // font-family: Inter;
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: #004a9e !important;
+  // background: #004a9e;
+}
+
+.user_nestedTable-th #headText {
+  color: #535353;
+  // font-family: Inter;
+  font-size: 16px;
+  // font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.user_btn-add {
+  // // margin-left: 50%;
+  position: relative;
+  left: 66%;
+  cursor: pointer;
+
+  display: flex;
+  height: 20px;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+
+  //
+}
+
+.rowLay {
+  height: 45px;
+}
+
+.rowLay-employee {
+  height: 39px;
+}
+.rowLay-employee-step3 {
+  height: 50px;
+}
+
+.rowLay-employee-step3-table {
+  height: 200px;
+}
+
+.rowLay-employee-last-row {
+  height: 39px;
+  margin-bottom: 8px;
+}
+
+.rowLay-employee-last-row-step4 {
+  height: 39px;
+  margin-bottom: 450px;
+  padding-top: 15px;
+}
+
+// Media Queries starts---->
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1699.98px) {
+  .blockcntnr {
+    overflow: auto;
+    max-height: 540px;
+    overflow-x: hidden;
+  }
+
+  // .content-wrapper {
+  //   background-color: #006b97;
+  // }
+}
+/* Extra large devices (extra large desktops, 1200px and up) */
+@media (min-width: 1700px) {
+  .blockcntnr {
+    overflow: auto;
+    max-height: 700;
+    overflow-x: hidden;
+  }
+}
+
+.imgBtn {
+  display: flex;
+  width: 76px;
+  height: 24px;
+  padding: 10px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 6px;
+  background: #0e56af;
+
+  margin-left: 120px;
+}
+
+.imgInput {
+  position: relative;
+}
+
+.imgInput label {
+  position: absolute;
+  top: -15px;
+  left: 23px;
+  padding: 2px;
+  z-index: 1;
+
+  color: #4d798b;
+  // font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* Set the default font size */
+}
+
+.imgInput label:after {
+  content: " ";
+  background-color: #fff;
+  // width: 50%;
+  height: 13px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+//input field label font size to set at small size when hovering.
+.form-control:hover + .common-input-label,
+.imgInput:hover .common-input-label {
+  font-size: 12px;
+  /* Set your smaller font size for hover state */
+  transition: font-size 0.3s ease;
+
+  /* Add a transition for smooth size change */
+}
+
+.popup {
+  width: 496px;
+  height: 264px;
+  flex-shrink: 0;
+}
+
+.sub-modal-cancel-btn {
+  display: flex;
+  width: 128px;
+  height: 40px;
+  padding: 10px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  border-radius: 6px;
+  border: 1px solid #dfdfdf;
+  background: #f5f5f5;
+
+  color: #ff0000;
+}
+
+.sub-modal-submit-btn {
+  display: flex;
+  width: 128px;
+  height: 40px;
+  padding: 10px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  border-radius: 6px;
+  background: #0e56af;
+}
+
+.sub-modal-submit-btn:hover {
+  display: flex;
+  width: 128px;
+  height: 40px;
+  padding: 10px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  border-radius: 6px;
+  background-color: #000000;
+}
+
+.sub-modal-cancel-btn:hover {
+  display: flex;
+  width: 128px;
+  height: 40px;
+  padding: 10px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  border-radius: 6px;
+  background-color: #000000;
+}
+
+.modBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modBody main {
+  width: 101px;
+  height: 83px;
+  flex-shrink: 0;
+}
+
+.modBody #res {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.employee-step5-row {
+  height: 20px;
+}
+.form-switch .form-check-input {
+  border: 0;
+  box-shadow: none;
+}
+
+.form-switch .form-check-input {
+  background-image: url("../images/ToggleBefore.svg");
+}
+
+.form-switch .form-check-input:checked {
+  background-image: url("../images/ToggleAfter.svg");
+}
+
+// to entered remove the number input arrows
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+//Hide the ScrollBar but it works Properly Start
+.hide-scrollbar {
+  position: fixed;
+  width: 93.8%;
+  padding: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  // overflow-y: scroll;
+  height: 780px;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+// .hide-scrollbar {
+//   scrollbar-width: thin;
+// }
+
+//Hide the ScrollBar but it works Properly End
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
